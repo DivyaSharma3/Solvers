@@ -1,13 +1,17 @@
 # Solvers
 Stuff I've written to solve puzzles.
 
+## Caesar Cipher
+
+This program decrypts a piece of text which has been encrypted with a Caesar Cipher. It uses cosine similarity between the frequecy vectors of the encrypted text and a reference text of the same language to determine which shift is needed to decrypt the text.
+
 ## Picross
 
 This program works by first solving the clues. Once the picross grid has been filled in with this informations, it goes through the rows and columns trying to fill in new squares. It does this by finding all valid permutations for the given rol/column, then finding which squares were filled in ALL valid permutations; these must be in the final solution.
 
 ## Sudoku
 
-There are two programs for solving a Sudoku
+There are two programs for solving a Sudoku.
 
 ### DLX
 

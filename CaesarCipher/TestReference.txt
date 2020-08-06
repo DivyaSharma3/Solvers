@@ -1,0 +1,48 @@
+10 PROGRAMS
+1.3 Real programming languages
+Time for a short history lesson. Early computers were used mostly for numerical
+calculations, often with military applications. By the early 1950's, some far
+sighted business people began to apply computers to the massive clerical eort
+that went into calculating the payroll for large companies, and other accounting
+operations.
+Writing programs for early computers was hard because, as we've seen,
+every program had to be broken down into single operations, and the writer
+had to keep track of where all the intermediate results would be stored. By the
+mid-1950's systems called autocodes were beginning to appear. These allowed
+complex formulae like those of our quadratic program to be written in one line,
+but control ow, sub program calling and other things still had to be written
+using the particular computer's special primitive instructions. As a result, every
+program was tied to the particular kind of computer it was designed for, since
+different kinds of computer have dierent primitive instructions.
+In 1957 the rst compiler that could be used on more than kind of computer
+appeared. The programmer wrote programs in a notation, or programming lan-
+guage, called FORTRAN which is short for FORmula TRANslation. Not long
+after, other languages started to appear, and in the last fty years thousands
+of dierent programming languages have been design and implemented. FOR-
+TRAN was a breakthrough because it allowed portability. A program written
+in FORTRAN could, in principle at least, be run on any computer with a FOR-
+TRAN compiler. It turns out that the portability oered by FORTRAN wasn't
+really good enough: subtle dierences in the way numbers were represented and
+exceptional events were handled on dierent computers meant that you could
+never be sure that large programs would run correctly on a dierent machine.
+The portability problem has continued to vex systems designers right down to
+the present day. The ultimate solution is to use a sort of intermediate `idealised'
+computer which has highly standardised behaviour. The rst successful system
+to work this way was Java the programming language, whose intermediary is
+called the Java Virtual Machine (JVM). Java can be run on desk top comput-
+ers, on laptops and even on mobile phones: in fact most Android mobile phone
+applications are written in Java.
+Rather few languages become widely used: perhaps twenty or thirty lan-
+guages in the last thirty years have had genuinely broad application. At the
+moment, the most prevalent languages are Java, C++, and C, along with some
+scripting languages such as Python and Visual basic. Historically, the choice of
+language to use has been dictated by execution speed, but modern computers
+are 'fast enough' for many applications so these days we are often more inter-
+ested in how well a language supports the writing of software rather than how
+rapidly it allows the software to run. So, for instance, the guaranteed porta-
+bility of Java removes the need to worry aout the dierences between, say, a
+Windows laptop and an Apple desktop. As a result, we use Java even though
+Java applications usually run a little slower than equivalent programs written
+in C.
+The main thing is to learn to program, not to learn just a language. Com-
+Divya Sharma
